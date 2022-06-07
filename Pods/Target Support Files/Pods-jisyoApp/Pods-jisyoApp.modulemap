@@ -1,0 +1,6 @@
+framework module Pods_jisyoApp {
+  umbrella header "Pods-jisyoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
