@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		665B7125273D47800094D09F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B7124273D47800094D09F /* AppDelegate.swift */; };
+		665B7127273D47800094D09F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B7126273D47800094D09F /* SceneDelegate.swift */; };
+		665B7129273D47800094D09F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B7128273D47800094D09F /* ViewController.swift */; };
+		665B712C273D47800094D09F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B712A273D47800094D09F /* Main.storyboard */; };
+		665B712E273D47800094D09F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665B712D273D47800094D09F /* Assets.xcassets */; };
+		665B7131273D47800094D09F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B712F273D47800094D09F /* LaunchScreen.storyboard */; };
+		665B713A273D4C270094D09F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B7139273D4C270094D09F /* LoginViewController.swift */; };
+		665B713C273D4D2D0094D09F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 665B713B273D4D2C0094D09F /* GoogleService-Info.plist */; };
+		665B713E273D570E0094D09F /* JisyoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B713D273D570E0094D09F /* JisyoViewController.swift */; };
+		667F274127990F4500BF8CC1 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667F274027990F4500BF8CC1 /* CommentModel.swift */; };
+		667F2743279A6FFE00BF8CC1 /* CommentAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667F2742279A6FFE00BF8CC1 /* CommentAddViewController.swift */; };
+		669EDD10273D5E86000E571F /* JisyoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669EDD0F273D5E86000E571F /* JisyoModel.swift */; };
+		669EDD12273FDF08000E571F /* TangoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669EDD11273FDF08000E571F /* TangoViewController.swift */; };
+		669EDD1427413355000E571F /* TangoAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669EDD1327413355000E571F /* TangoAddViewController.swift */; };
+		669EDD162741386C000E571F /* TangoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669EDD152741386C000E571F /* TangoModel.swift */; };
+		669EDD18274148E5000E571F /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669EDD17274148E5000E571F /* SetViewController.swift */; };
+		669FAB3E279555540087F39E /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FAB3D279555540087F39E /* MypageViewController.swift */; };
+		669FAB4027955B330087F39E /* MyJisyoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FAB3F27955B330087F39E /* MyJisyoModel.swift */; };
+		669FAB42279577A90087F39E /* MyTangoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FAB41279577A90087F39E /* MyTangoViewController.swift */; };
+		669FAB4427957AB80087F39E /* MyTangoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FAB4327957AB80087F39E /* MyTangoModel.swift */; };
+		669FAB462796C4D00087F39E /* TourokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FAB452796C4D00087F39E /* TourokuViewController.swift */; };
+		669FAB482797EB240087F39E /* ShareJisyoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FAB472797EB240087F39E /* ShareJisyoViewController.swift */; };
+		669FAB4A2797EB390087F39E /* ShareTangoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FAB492797EB390087F39E /* ShareTangoViewController.swift */; };
+		66F011DD279902C2003A6D81 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F011DC279902C2003A6D81 /* CommentViewController.swift */; };
+		D3156A26D047338B2CD5AD9F /* Pods_jisyoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789A3E9FA9B2F5B373A660AC /* Pods_jisyoApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		665B7121273D47800094D09F /* jisyoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jisyoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		665B7124273D47800094D09F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		665B7126273D47800094D09F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		665B7128273D47800094D09F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		665B712B273D47800094D09F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		665B712D273D47800094D09F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		665B7130273D47800094D09F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		665B7132273D47800094D09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665B7139273D4C270094D09F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		665B713B273D4D2C0094D09F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		665B713D273D570E0094D09F /* JisyoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JisyoViewController.swift; sourceTree = "<group>"; };
+		667F274027990F4500BF8CC1 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		667F2742279A6FFE00BF8CC1 /* CommentAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentAddViewController.swift; sourceTree = "<group>"; };
+		669EDD0F273D5E86000E571F /* JisyoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JisyoModel.swift; sourceTree = "<group>"; };
+		669EDD11273FDF08000E571F /* TangoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangoViewController.swift; sourceTree = "<group>"; };
+		669EDD1327413355000E571F /* TangoAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangoAddViewController.swift; sourceTree = "<group>"; };
+		669EDD152741386C000E571F /* TangoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangoModel.swift; sourceTree = "<group>"; };
+		669EDD17274148E5000E571F /* SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
+		669FAB3D279555540087F39E /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
+		669FAB3F27955B330087F39E /* MyJisyoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJisyoModel.swift; sourceTree = "<group>"; };
+		669FAB41279577A90087F39E /* MyTangoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTangoViewController.swift; sourceTree = "<group>"; };
+		669FAB4327957AB80087F39E /* MyTangoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTangoModel.swift; sourceTree = "<group>"; };
+		669FAB452796C4D00087F39E /* TourokuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourokuViewController.swift; sourceTree = "<group>"; };
+		669FAB472797EB240087F39E /* ShareJisyoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareJisyoViewController.swift; sourceTree = "<group>"; };
+		669FAB492797EB390087F39E /* ShareTangoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareTangoViewController.swift; sourceTree = "<group>"; };
+		66F011DC279902C2003A6D81 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		789A3E9FA9B2F5B373A660AC /* Pods_jisyoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jisyoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CDCE143C5AC45D564526BE /* Pods-jisyoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jisyoApp.release.xcconfig"; path = "Target Support Files/Pods-jisyoApp/Pods-jisyoApp.release.xcconfig"; sourceTree = "<group>"; };
+		AAD7BD5EC21025FC0098780F /* Pods-jisyoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jisyoApp.debug.xcconfig"; path = "Target Support Files/Pods-jisyoApp/Pods-jisyoApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665B711E273D47800094D09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3156A26D047338B2CD5AD9F /* Pods_jisyoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665B7118273D47800094D09F = {
+			isa = PBXGroup;
+			children = (
+				665B7123273D47800094D09F /* jisyoApp */,
+				665B7122273D47800094D09F /* Products */,
+				75A33BC09DDBCA7B5D837A32 /* Pods */,
+				9931D6903830C0680268F793 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		665B7122273D47800094D09F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665B7121273D47800094D09F /* jisyoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665B7123273D47800094D09F /* jisyoApp */ = {
+			isa = PBXGroup;
+			children = (
+				665B7124273D47800094D09F /* AppDelegate.swift */,
+				665B7126273D47800094D09F /* SceneDelegate.swift */,
+				669EDD0E273D5E72000E571F /* Model */,
+				665B7138273D4C100094D09F /* Controller */,
+				665B712A273D47800094D09F /* Main.storyboard */,
+				665B712D273D47800094D09F /* Assets.xcassets */,
+				665B712F273D47800094D09F /* LaunchScreen.storyboard */,
+				665B713B273D4D2C0094D09F /* GoogleService-Info.plist */,
+				665B7132273D47800094D09F /* Info.plist */,
+			);
+			path = jisyoApp;
+			sourceTree = "<group>";
+		};
+		665B7138273D4C100094D09F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				665B7128273D47800094D09F /* ViewController.swift */,
+				665B7139273D4C270094D09F /* LoginViewController.swift */,
+				665B713D273D570E0094D09F /* JisyoViewController.swift */,
+				669EDD11273FDF08000E571F /* TangoViewController.swift */,
+				669EDD1327413355000E571F /* TangoAddViewController.swift */,
+				669EDD17274148E5000E571F /* SetViewController.swift */,
+				669FAB3D279555540087F39E /* MypageViewController.swift */,
+				669FAB41279577A90087F39E /* MyTangoViewController.swift */,
+				669FAB452796C4D00087F39E /* TourokuViewController.swift */,
+				669FAB472797EB240087F39E /* ShareJisyoViewController.swift */,
+				669FAB492797EB390087F39E /* ShareTangoViewController.swift */,
+				66F011DC279902C2003A6D81 /* CommentViewController.swift */,
+				667F2742279A6FFE00BF8CC1 /* CommentAddViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		669EDD0E273D5E72000E571F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				669EDD0F273D5E86000E571F /* JisyoModel.swift */,
+				669EDD152741386C000E571F /* TangoModel.swift */,
+				669FAB3F27955B330087F39E /* MyJisyoModel.swift */,
+				669FAB4327957AB80087F39E /* MyTangoModel.swift */,
+				667F274027990F4500BF8CC1 /* CommentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75A33BC09DDBCA7B5D837A32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAD7BD5EC21025FC0098780F /* Pods-jisyoApp.debug.xcconfig */,
+				80CDCE143C5AC45D564526BE /* Pods-jisyoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9931D6903830C0680268F793 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				789A3E9FA9B2F5B373A660AC /* Pods_jisyoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665B7120273D47800094D09F /* jisyoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665B7135273D47800094D09F /* Build configuration list for PBXNativeTarget "jisyoApp" */;
+			buildPhases = (
+				357130C427056C138FD39544 /* [CP] Check Pods Manifest.lock */,
+				665B711D273D47800094D09F /* Sources */,
+				665B711E273D47800094D09F /* Frameworks */,
+				665B711F273D47800094D09F /* Resources */,
+				EF1D9469C3E177CAFE0E13C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jisyoApp;
+			productName = jisyoApp;
+			productReference = 665B7121273D47800094D09F /* jisyoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665B7119273D47800094D09F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					665B7120273D47800094D09F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 665B711C273D47800094D09F /* Build configuration list for PBXProject "jisyoApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 665B7118273D47800094D09F;
+			productRefGroup = 665B7122273D47800094D09F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665B7120273D47800094D09F /* jisyoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665B711F273D47800094D09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665B713C273D4D2D0094D09F /* GoogleService-Info.plist in Resources */,
+				665B7131273D47800094D09F /* LaunchScreen.storyboard in Resources */,
+				665B712E273D47800094D09F /* Assets.xcassets in Resources */,
+				665B712C273D47800094D09F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		357130C427056C138FD39544 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jisyoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF1D9469C3E177CAFE0E13C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jisyoApp/Pods-jisyoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jisyoApp/Pods-jisyoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jisyoApp/Pods-jisyoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665B711D273D47800094D09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669EDD1427413355000E571F /* TangoAddViewController.swift in Sources */,
+				669FAB4A2797EB390087F39E /* ShareTangoViewController.swift in Sources */,
+				669FAB42279577A90087F39E /* MyTangoViewController.swift in Sources */,
+				669EDD18274148E5000E571F /* SetViewController.swift in Sources */,
+				669EDD12273FDF08000E571F /* TangoViewController.swift in Sources */,
+				669FAB462796C4D00087F39E /* TourokuViewController.swift in Sources */,
+				665B713A273D4C270094D09F /* LoginViewController.swift in Sources */,
+				669FAB4427957AB80087F39E /* MyTangoModel.swift in Sources */,
+				667F2743279A6FFE00BF8CC1 /* CommentAddViewController.swift in Sources */,
+				66F011DD279902C2003A6D81 /* CommentViewController.swift in Sources */,
+				665B7129273D47800094D09F /* ViewController.swift in Sources */,
+				667F274127990F4500BF8CC1 /* CommentModel.swift in Sources */,
+				669EDD10273D5E86000E571F /* JisyoModel.swift in Sources */,
+				669FAB482797EB240087F39E /* ShareJisyoViewController.swift in Sources */,
+				669FAB4027955B330087F39E /* MyJisyoModel.swift in Sources */,
+				665B7125273D47800094D09F /* AppDelegate.swift in Sources */,
+				669EDD162741386C000E571F /* TangoModel.swift in Sources */,
+				665B713E273D570E0094D09F /* JisyoViewController.swift in Sources */,
+				665B7127273D47800094D09F /* SceneDelegate.swift in Sources */,
+				669FAB3E279555540087F39E /* MypageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		665B712A273D47800094D09F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665B712B273D47800094D09F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		665B712F273D47800094D09F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665B7130273D47800094D09F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		665B7133273D47800094D09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		665B7134273D47800094D09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		665B7136273D47800094D09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD7BD5EC21025FC0098780F /* Pods-jisyoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SYY94KXT2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = jisyoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masataka.jisyoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		665B7137273D47800094D09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80CDCE143C5AC45D564526BE /* Pods-jisyoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SYY94KXT2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = jisyoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masataka.jisyoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665B711C273D47800094D09F /* Build configuration list for PBXProject "jisyoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665B7133273D47800094D09F /* Debug */,
+				665B7134273D47800094D09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665B7135273D47800094D09F /* Build configuration list for PBXNativeTarget "jisyoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665B7136273D47800094D09F /* Debug */,
+				665B7137273D47800094D09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 665B7119273D47800094D09F /* Project object */;
+}
